@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+    font-family: "Raleway", san serif;
+    background-image: url("../images/sun-pattern.png");
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.cat-content{
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.5em;
+    font-weight: 900;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    margin: auto;
+    max-width: 60%;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.active{
+    background-color: orange;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+    margin-block-end: 1em;
+}
+
+#cta {
+    max-width: 350px;
+    margin: auto;
+}
+
+
+.my-input{
+     margin: 0 auto;
+     max-width: 60%; 
+}
